@@ -1,0 +1,167 @@
+<html>
+  <head>
+    <style>
+.header{
+  height:190px;
+
+  color:white;
+  background-color:black;
+  
+
+}
+.img{
+ border-radius: 100%;
+ height:65px;
+ width:50px;
+margin-top:20px;
+align-items:center;
+display:block;
+}
+.color{
+  color:blue;
+}
+    </style>
+  </head>
+  <body>
+<table>
+        <tr>
+          <h1 class="header"><br><br> RATATOUILLE</h1>
+        </tr>
+       <tr><td>
+         <img src="professional woman.jpg" class="img">
+        </td>
+        <td>
+          <label style="text-decoration:underline;">remy</label>
+          <p style="color:grey">@remy</p>
+
+        </td>
+        </tr>
+        <tr>
+          <td>
+            tweet
+
+          </td><td>
+         following
+          </td><td>
+followers
+          </td>
+        </tr>
+        <tr class="color">
+          <td>
+            5049
+          </td><td>
+324
+          </td>
+          <td>
+            809
+          </td>
+
+        </tr>
+        </table>
+  </body>
+</html>
+
+
+
+<html>
+  <body>
+    <table><tr><td>
+    <h3>
+      who to follow
+    </h3></td></tr><tr><td>
+    <img class="img" src="professional woman.jpg">
+    
+  </td>
+<td >remy</td><td style="color:grey">@remy nov 19
+  <br>
+<p style="color:black;">I am taking this class called CS1320ca and the TAs are also so cool!</p><hr>
+
+</td></tr>
+
+<tr><td>
+  <img class="img" src="professional woman.jpg">
+  
+</td>
+<td >remy</td><td style="color:grey">@remy nov 19
+<br>
+<p style="color:black;">its 2007. You just got home from elmentry school. your mom has pizza bangles begin in the oven. Ratahotullie is in thether. Life is good</p><hr>
+
+</td></tr>
+<tr><td>
+  <img class="img" src="professional woman.jpg">
+  
+</td>
+<td >remy</td><td style="color:grey">@remy nov 19
+<br>
+<p style="color:black;">Lets make some pasta</p><hr>
+
+</td></tr>
+<tr><td>
+  <img class="img" src="professional woman.jpg">
+  
+</td>
+<td >remy</td><td style="color:grey">@remy nov 19
+<br>
+<p style="color:black;">Lets make some pasta</p><hr>
+
+</td></tr>
+<tr><td>
+  <img class="img" src="professional woman.jpg">
+  
+</td>
+<td >remy</td><td style="color:grey">@remy nov 19
+<br>
+<p style="color:black;">Lets make some pasta</p><hr>
+
+</td></tr>
+
+
+</table>
+  </body>
+</html>
+
+
+
+<html>
+    <head>
+        <style>
+            p{
+            background-color: rgb(151, 168, 64);
+            color:white;
+            text-align: center;
+            font-size: 15pt;
+            font-family: serif;
+            }
+            img{
+                width:100px;height: 100px;
+                background-color: purple;
+            }
+            #content{
+                background-color: rgb(222, 190, 190);
+            color:black;
+            font-family: sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+
+    
+    <p>
+        <img src="aeroplanee.jpg" align="right" >
+        <Br><Br><B>MY BLOG<B></B><Br><Br><Br>
+    </p>
+    <H1> Artifical Intelligence Blog</H1>
+    <hr>
+    <h2 id="content">OPENAI</h2>
+    <h5 id="content"><BR>
+      OpenAI comes from industry experts who want to bring AI to the masses. It's linked to the non-profit research company OpenAI, co-chaired by Elon Musk and Sam Altman, and sponsored by companies such as Amazon Web Services, Microsoft, and Infosys who are trying to make AI accessible—hence the name. Contributors discuss their collective efforts to promote and advance AI technologies through long-term research. It’s a valuable resource for anyone interested in the future of AI.<br>posted on may7,2025</h5>
+   <hr>
+   <h2 id="content">Distill</h2>
+   <h5 id="content"><BR>
+    Distill concentrates on making ML and AI more accessible for readers. Traditional research can be difficult to consume, so Distill communicates ML research in appealing, interactive data visualizations. It acts as a neutral platform for multiple authors to publish together, and articles are peer-reviewed, appearing in Google Scholar. Distill is also registered with the Library of Congress and CrossRef.<br>posted on may7,2025</h5>
+   <hr>
+   <h2 id="content">Machine Language Is Fun</h2>
+   <h5 id="content"><BR>
+    Machine Learning is Fun is a valuable, introductory blog. It covers the tenets of ML through interactive tutorials and practical examples, which make it easier to see the useful applications to different businesses and industries. Author Adam Geitgey is a former software developer who now consults organizations on implementing machine learning. He believes ML is integral to the future of software and that developers should have a strong working knowledge, so he provides guides and techniques to help them develop and grow.<br>posted on may7,2025</h5>
+</body>
+</html>

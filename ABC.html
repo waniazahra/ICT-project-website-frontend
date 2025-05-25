@@ -1,0 +1,221 @@
+
+<html>
+<head>
+    <title>Flight Reservation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('final.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            color: #2e3e6e;
+        }
+
+        img {
+            display: block;
+            width: 1200px;
+            height: 500px;
+            padding: 2px;
+            border: 5px inset rgb(17, 79, 97);
+            margin: auto;
+        }
+        .colorchange:hover{
+            color:white;
+
+        }
+
+        .form-section {
+            background-color: rgba(255, 235, 205, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        label, select, input[type="text"] {
+            display: block;
+            margin: 10px auto;
+            font-size: 1rem;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        input[type="radio"] {
+            margin-left: 10px;
+        }
+
+        .buttoncolor {
+            display: inline-block;
+            font-size: large;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(66, 32, 98);
+            border-radius: 25px;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: 2px solid rgb(66, 32, 98);
+            background-color: white;
+            margin: 10px auto;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .links a {
+            color: #003366;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .helpline {
+            text-align: right;
+            margin-top: 30px;
+            font-size: 0.9rem;
+        }
+
+    </style>
+    <script>
+        function toggleSelection(type) {
+            if (type === 'country') {
+                document.getElementById('city').selectedIndex = 0;
+            } else {
+                document.getElementById('country').selectedIndex = 0;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1><em>FLIGHT RESERVATION</em></h1>
+
+    <img id="autoImg" src="aeroplanee.jpg" width="300">
+
+<script>
+let images = ["aeroplanee.jpg","airline.jpg","abcd,jpg.jpg"]
+let index = 0;
+
+setInterval(() => {
+  index = (index + 1) % images.length;
+  document.getElementById("autoImg").src = images[index];
+}, 2000);
+</script>
+
+    <div class="form-section">
+        <p id="text">
+            Book your flights today! This is a user-friendly platform offering affordable ticket prices and 24/7 customer service. Flights to 50+ countries and 10+ cities are available.
+        </p>
+        <hr>
+
+        <h2>From Islamabad to:</h2>
+        <label for="country">Select a country:</label>
+        <select id="country" name="country" onchange="toggleSelection('country')">
+            <option value="">-- Select Country --</option>
+            <option value="canada">Canada</option>
+            <option value="germany">Germany</option>
+            <option value="france">France</option>
+            <option value="malaysia">Malaysia</option>
+            <option value="UAE">UAE</option>
+            <option value="america">America</option>
+            <option value="denmark">Denmark</option>
+            <option value="finland">Finland</option>
+            <option value="uk">United Kingdom</option>
+            <option value="qatar">Qatar</option>
+             <option value="oman">Oman</option>
+              <option value="japan">Japan</option>
+               <option value="australia">Australia</option>
+               <option value="china">China</option>
+               <option value="peru">Peru</option>
+               <option value="ireland">Ireland</option>
+               <option value="thailand">Thailand</option>
+               <option value="yemen">Yemen</option>
+               <option value="norway">Norway</option>
+               <option value="oman">Greenland</option>
+               <option value=" south korea"> South Korea</option>
+               <option value="bangkok">bangkok</option>
+               <option value="srilanka">Srilanka</option>
+               <option value="turkey">Turkey</option>
+               <option value="somalia">Somalia</option>
+               <option value="italy">Italy</option>
+               <option value="ukraine">Ukraine</option>
+               <option value="russia">Russia</option>
+               <option value="bankok">Bankok</option>
+               <option value="vietnam">Vietnam</option>
+               <option value="argentina">Argentina</option>
+               <option value="portugal">Portugal</option>
+               <option value="spain">Spain</option>
+               <option value="switzerland">switzerland</option>
+               <option value="newzealand">Newzealand</option>
+               <option value="uganda">uganda</option>
+               <option value="iceland">Iceland</option>
+               <option value="jamaica">Jamaica</option>
+               <option value="zambia">Zambia</option>
+               <option value="india">India</option>
+               <option value="romania">Romania</option>
+               <option value="iran">Iran</option>
+               <option value="iraq">Iraq</option>
+               <option value="palestine">Palestine</option>
+               <option value="syria">Syria</option>
+               <option value="egypt">Egypt</option>
+               <option value="bhutan">Bhutan</option>
+               <option value="azerbhaijan">Azerbhaijan</option>
+               <option value="afghanistan">Afghanistan</option>
+               <option value="mexico">Mexico</option>
+        </select>
+
+        <h3>OR</h3>
+
+        <label for="city">Select a city:</label>
+        <select id="city" name="city" onchange="toggleSelection('city')">
+            <option value="">-- Select City --</option>
+            <option value="karachi">Karachi</option>
+            <option value="lahore">Lahore</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="faisalabad">Faisalabad</option>
+            <option value="multan">Multan</option>
+            <option value="peshawar">Peshawar</option>
+            <option value="quetta">Quetta</option>
+            <option value="gilgit">Gilgit</option>
+            <option value="chitral">Chitral</option>
+            <option value="skardu">Skardu</option>
+            <option value="sialkot">Sialkot</option>
+        </select>
+
+        <hr>
+        <label><b>Enter number of travellers:</b></label>
+        <input type="text" >
+
+        <label><b>Enter your choice:</b></label>
+        <input type="radio" name="ticket_type" id="oneway">
+        <label for="oneway">One-way</label><br>
+
+        <input type="radio" name="ticket_type" id="return">
+        <label for="return">Return Ticket</label><br>
+
+        <input type="radio" name="ticket_type" id="multi">
+        <label for="multi">Multi-City</label><br>
+
+        <h2>Details:</h2>
+        <div class="links">
+            <a class="buttoncolor" href="file:///C:/Users/shoai/OneDrive/Desktop/ICT%20LAB%20PROJECT/payment%20methood.html">PAY NOW</a>
+            <br><br>
+            <a href="https://www.flyjinnah.com/book-flight" class="colorchange">CLICK HERE TO PROCEED</a> |
+            <a href="https://www.flyjinnah.com/flight-status" class="colorchange">Flight Status</a> |
+            <a href="https://www.flypgs.com/en/travel-glossary/ticket" class="colorchange">Reservation Guidelines</a>|
+            <a href="file:///C:/Users/shoai/OneDrive/Desktop/ICT%20LAB%20PROJECT/FAQs.html"class="colorchange">FAQs</a>
+           
+        </div>
+
+        <div class="helpline">
+           Helpline: <i class="colorchange"> 01-123-45</i> <br>
+            Email: <a href="mailto:ticketreservation@gmail.com" class="colorchange">ticketreservation@gmail.com</a>
+        </div>
+    </div>
+</body>
+</html>
